@@ -4,13 +4,13 @@ export class InMemoryDataService implements InMemoryDbService {
     let resumes = [
       {
         id: 1, 
-        name: 'Brian William Zanti',
-        content: `
+        name: 'Brian William Zanti',        
+        content: `        
         <h1>Brian William Zanti</h1>
-        <span>(703) 870-8748</span><span>BrianZanti@gmail.com</span>
+        <span style="margin-right:2em;">(703) 870-8748</span><span style="margin-left:2em;">BrianZanti@gmail.com</span>
         <h2>Professional Experience</h2>
         <h3>Simon Computing (Alexandria, VA)</h3>
-        <p>Software Developer, June 2016 - May 2016</p>
+        <h4>Software Developer, June 2016 - May 2016</h4>
         <ul>
           <li>Developed a library for reliable asynchronous control of a 
           motorized Camera Assembly, designed firmware and circuity, and 
@@ -29,7 +29,7 @@ export class InMemoryDataService implements InMemoryDbService {
           </li>
         </ul>        
         <h3>Inova Solutions, Inc. (Charlottesville, VA)</h3>
-        <p>Engineering Intern, May 2015 - August 2015</p>
+        <h4>Engineering Intern, May 2015 - August 2015</h4>
         <ul>
           <li>Developed a web app to monitor a network of devices, sourcing 
           data from a cloud API
@@ -37,11 +37,11 @@ export class InMemoryDataService implements InMemoryDbService {
           <li>
           Developed a Raspberry Pi app to extract meta data from devices connected by Ethernet
           </li>
-          Managed the development process by participating in daily and weekly Scrum meetings
-          <li>          
+          <li>Managed the development process by participating in daily and weekly Scrum meetings
+          </li>          
         </ul>
         <h3>Stanford Health Care (Palo Alto, CA)</h3>
-        <p>Business Development Intern, June 2014 - August 2014</p>
+        <h4>Business Development Intern, June 2014 - August 2014</h4>
         <ul>
           <li>Gathered data on the Bay Area’s competitive health care market, created statistical 
           and qualitative reports, and presented findings to the Directors of Business Development
@@ -58,7 +58,7 @@ export class InMemoryDataService implements InMemoryDbService {
         </ul>
         <h2>Education</h2>
         <h3>University of Virginia (Charlottesville, VA)</h3>
-        <p>Bachelor of Science with Distinction, Computer Engineering, Minor in Engineering Business</p>
+        <h4>Bachelor of Science with Distinction, Computer Engineering, Minor in Engineering Business</h4>
         <ul>
           <li>Cumulative GPA of 3.5</li>
           <li>Led a five person Technical Capstone team that developed an embedded system to 
@@ -68,13 +68,13 @@ export class InMemoryDataService implements InMemoryDbService {
         </ul>  
         <h2>Leadership Experience</h2>
         <h3>Sigma Pi, Beta Pi Chapter (University of Virginia)</h3>
-        <p>New Member Educator, House Manager</p>
+        <h4>New Member Educator, House Manager</h4>
         <ul>
           <li>Led a committee to develop and execute a risk-free new member education plan</li>
           <li>Managed budgets of $1000 for new member education and $800 for house supplies and maintenance</li>
         </ul>
         <h3>School of Engineering and Applied Sciences (University of Virginia)</h3>
-        <p>Private Tutor</p>
+        <h4>Private Tutor</h4>
         <ul>
           <li>Educated first and second year students on the principles of computer science</li>
           <li>Developed rewarding relationships with pupils as they grew as students and succeeded academically</li>

@@ -12,7 +12,7 @@ import { ResumeService } from './service/resume/resume.service';
   imports: [
     BrowserModule,
     HttpModule,
-    InMemoryWebApiModule.forRoot(InMemoryDataService),
+    InMemoryWebApiModule.forRoot(InMemoryDataService),    
   ],
   declarations: [
     AppComponent
