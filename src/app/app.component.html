@@ -1,5 +1,4 @@
 <main>
-  <div *ngIf="resume">
-	{{resume.content}}
+  <div *ngIf="resume" [innerHtml]="content">	
   </div>
 </main>
