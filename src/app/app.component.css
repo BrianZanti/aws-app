@@ -5,3 +5,16 @@ main {
   margin-top: 50px;
   display: block;
 }
+
+:host >>> #resumeBody h1 {
+	font-weight: bold;
+}
+:host >>> #resumeBody h2 {
+	font-weight: bold;
+}
+:host >>> #resumeBody h3 {
+	font-weight: bold;
+}
+#resumeBody {
+	text-align: left;
+}
