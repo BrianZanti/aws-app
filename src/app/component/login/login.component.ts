@@ -10,7 +10,7 @@ export class LoginComponent {
 
 	email: string;
 	password: string;	
-	data: string;
+	
 	constructor(private auth: AuthService){} 	
 
 	onSubmit(email: string, password: string){
