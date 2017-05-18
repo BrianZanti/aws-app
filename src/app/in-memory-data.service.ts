@@ -7,7 +7,7 @@ export class InMemoryDataService implements InMemoryDbService {
         name: 'Brian William Zanti',        
         content: `        
         <h1>Brian William Zanti</h1>
-        <span style="margin-right:2em;">(703) 870-8748</span><span style="margin-left:2em;">BrianZanti@gmail.com</span>
+        <p><span style="margin-right:2em;">(703) 870-8748</span><span style="margin-left:2em;">BrianZanti@gmail.com</span></p>
         <h2>Professional Experience</h2>
         <h3>Simon Computing (Alexandria, VA)</h3>
         <h4>Software Developer, June 2016 - May 2016</h4>
