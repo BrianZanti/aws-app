@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './component/login/login.component';
+import { ResumeComponent } from './component/resume/resume.component';
 
 import { ResumeService } from './service/resume/resume.service';
 import { AuthService } from './service/auth/auth.service';
@@ -25,7 +26,8 @@ import { AuthService } from './service/auth/auth.service';
   ],
   declarations: [
     AppComponent,
-    LoginComponent
+    LoginComponent,
+    ResumeComponent
   ],
   providers: [
   	ResumeService,
