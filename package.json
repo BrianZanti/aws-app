@@ -27,6 +27,7 @@
     "@types/jasmine": "2.5.36",
     "@types/node": "^6.0.73",
     "angular-in-memory-web-api": "^0.3.2",
+    "angular2-jwt": "^0.2.3",
     "angular2-template-loader": "^0.6.0",
     "awesome-typescript-loader": "^3.0.4",
     "css-loader": "^0.26.1",
